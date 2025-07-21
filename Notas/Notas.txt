@@ -2,5 +2,26 @@ CURSO REACT PRO:
 -------------------------------------------
 -------------------------------------------
 -------------------------------------------
+Seccion 4:
+- Aplicar Lazy Load en cada Componente
+
+- Aplicar Lazy Load por módulo
+
+La idea del módulo es que nos permita cargarlo y todas sus dependencias en conjunto.
+
+Notas:
+
+- No todo debe ir con lazyload, un modulo donde todo tenga acceso es preferible que esté cargado todo, en vistas restringidas si vale la pena el lazyload
+-------------------------------------------
+Seccion 5:
+En esta sección aprenderemos el patrón de construcción de componentes llamado "Compound Component Pattern" el cual es muy usado por Material UI, ionic y muchos otros que trabajan con componentes previamente creados que se pueden anidar entre si mediante HOCs (Higher Order Components)
+
+Puntualmente aprenderemos el patrón y crearemos nuestro propio ejemplo aplicado.
+
+Pasos:
+1. Construir y separar componentes pequeños faciles de ver
+2. Usar el componente padre y que internamente podamos definir los componentes hijos
+3.
 
 
+-------------------------------------------
