@@ -21,7 +21,36 @@ Puntualmente aprenderemos el patrón y crearemos nuestro propio ejemplo aplicado
 Pasos:
 1. Construir y separar componentes pequeños faciles de ver
 2. Usar el componente padre y que internamente podamos definir los componentes hijos
-3.
+
+
+-------------------------------------------
+Seccion 6: 
+En esta sección aprenderemos a extender la funcionalidad de nuestro componente añadiendo la posibilidad de interpretar clases de CSS y/o estilos en línea (inline styles)
+
+Para lograrlo necesitaremos realizar ciertas modificaciones a nuestras interfaces y componentes, pero al final del día, tendremos una componente personalizable.
+
+Notas
+- Para los estilos colocar el clasName en la interfaz del componente hijo y luego mandarle el className y mandarle la clase desde el padre
+- Para el patron "Compound Component Pattern" se debe complementar el tipado de cada props de cada componente en una interfaz unificada en el archivo de interfaz
+-     style?: React.CSSProperties es el tipado para los estilos
+
+
+
+-------------------------------------------
+Seccion 7:
+Patrones de componentes - Control Props
+En esta sección aprenderemos a darle el control a nuestro usuario o compañero de trabajo sobre las propiedades y estado de nuestro componente, usualmente este patrón es el que se utiliza de manera tradicional en formularios, es decir:
+
+<input
+    value={  algún valor de solo lectura }
+    onChange={ alguna función que cambia el valor }
+/>
+Este patrón es el que implementaremos a continuación
+
+Notas:
+- Ayuda a la sincronizacion de data entre dos componentes, muy util para un carrito de compras de una tienda online estilo amazon
+- 
+
 
 
 -------------------------------------------
