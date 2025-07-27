@@ -117,11 +117,49 @@ Notas:
 
 
 -------------------------------------------
+Seccion 11 Formik Dynamic y cutom forms
+
+Esta sección tomaremos el conocimiento aprendido sobre Formik y crearemos formularios dinámicos basados en data en formato JSON. Aquí aprenderemos:
+
+Construir inputs de forma dinámica
+
+Construir validaciones basados en propiedades
+
+Selects, Inputs
+
+Ideas para validaciones
+
+Es una sección corta, pero bastante solicitada, el objetivo principal de la misma es que tengamos la idea de formularios dinámicos y que logremos adaptarlo a nuestras necesidades particulares.
 
 
+-------------------------------------------
+Seccion 12 Storybook - Cama para creacion y mantenimiento de componentes
+Esta sección está enfocada en aprender como integrar Storybook en nuestras aplicaciones de React para transformarla en una aplicación que nos ayudará a probar y desarrollar de una mejor manera nuestros componentes.
+
+La sección tiene por objectivo aprender:
+
+Integrar Storybook en una aplicación de React con Npx
+
+Crear un componente desde cero
+
+Crear historias
+
+Configurar historias
+
+Utilizar varios controles para las properties
+
+Integración con TypeScript
+
+Crear documentaciones de componentes
+
+Desplegar documentación a diferentes sitios
+
+Bonus: Chromatic para desplegar Storybook de forma colaborativa
 
 
-
+Notas:
+- Chromatic es un servicio de pago
+- 
 
 
 
@@ -129,17 +167,8 @@ Notas:
 
 -------------------------------------------
 
+seccion 14: Aplicacion React y Backend para PWA
 
-
-
-
-
-
-
-
-
-
--------------------------------------------
 
 
 
