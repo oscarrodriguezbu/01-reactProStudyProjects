@@ -54,3 +54,111 @@ Notas:
 
 
 -------------------------------------------
+Seccion 8:
+Patron State initializer + function child = Render props- Formik implementation
+
+
+Lo que están apunto de observar en esta sección es el patrón State Initializer junto al diseño de componentes que utiliza Formik.
+
+El principal objetivo es poder exponer todo lo que el usuario (otro desarrollador) puede utilizar, el patrón principalmente pide que se pueda ofrecer un estado inicial y una forma de re-establecer el estado a su forma original, pero nosotros aquí lo llevaremos a otro nivel exponiendo funciones y nuevas propiedades.
+
+También aprenderemos a enviar una función como children, similar a la implementación de Formik.
+
+
+
+-------------------------------------------
+Seccion 9: NPM Deploy - Desplegar paquetes de componentes
+Aquí realizaremos el primer despliegue a NPM de nuestro paquete.
+
+Eventualmente lo haremos utilizando Storybook, pero por ahora lo haremos de la forma como tenemos nuestro componente y una forma directa de hacerlo.
+
+Es importante también realizarlo con TypeScript y exponer los archivos de definición para que otros desarrolladores que también usen TypeScript, también tengan el auto-completado y manejo de errores.
+
+
+
+
+-------------------------------------------
+Seccion 10 
+Formik -  React forms
+Esta es una sección muy importante para comprender las bases y temas avanzados de Formik, aquí veremos:
+
+useFormik
+
+Formik Component
+
+Formik Context
+
+useField
+
+Formik Custom Components
+
+Custom Components
+
+Metadata de los inputs
+
+Abstractation
+
+Yup
+
+Validaciones tipicas
+
+Validaciones personalizadas
+
+
+Notas:
+- Formik es un hook potenciado con muchas herramientas para manejar forms
+- yup lo recomienda formic para manejar las validaciones
+- Form, Field y ErrorMessage son props muy utiles del formic para optimizar el codigo mucho mas
+- Formik Tambien se puede usar como otro componente que regresa un jsx
+- El ErrorMessage devuelve un texto, pero se le puede especificar el tipo de componente para que se muestre, por ejemplo div, span etc
+- El Field Tambien se le puede especificar el tipo de input, como type="checkbox", as="select", etc
+- Para crear campos customizados podemos usar el hook useField para extraer todas las propiedades necesarias
+- 
+
+
+-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------
+
+
+
+
+
+
+
+
+
