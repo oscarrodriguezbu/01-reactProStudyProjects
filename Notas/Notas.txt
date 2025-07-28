@@ -169,22 +169,159 @@ Notas:
 
 seccion 14: Aplicacion React y Backend para PWA
 
+En esta sección tendremos unas instalaciones de una aplicación y backend hechos en mi curso de React de cero a experto, no hace falta que tomen ese curso, pero es una aplicación real de React, con patrón Redux y autenticación por JWT hacia nuestro backend.
+
+El objetivo de la sección es:
+
+Tener una aplicación real de React
+
+Tener un backend y base de datos
+
+Tener una introducción a las PWAs
+
+
+NOTAS:
+- SE TRABAJA SOBRE EL PROYECTO DEL CALENDARIO DEL CURSO DE REACT DE CERO A EXPERTO
+- Para trabajar en esta sección descargué el front terminado del curso y puse a correr mi backend:
+	https://github.com/oscarrodriguezbu/React-MERN-calendar-backend
+- Usuario para login: email:oscar@oscar.com password:123456
+- 
+
+
+PWA:
+• Acceso a la aplicación sin conexión
+• Creación de base de datos local (No guardar info sensible) Es una base de datos temporal pero tiene riesgos
+• Push Notifications*
+• Uso de recursos nativos como la cámara y GPS
+• Sincronización en segundo plano, (sincroniza la base de datos cuando hay conexión.
+• Entre otras cosas
+
+
+
+Service Worker
+Funciona de proxy en el background
+•Intercepta peticiones
+•Esta pendiente de notificaciones push
+•Corre en segundo plano
+•Maneja el caché
+
+Importante:
+Servido en protocolo HTTPS
+Funciona localmente “localhost:xxx”
+No funciona en desarrollo “yarn start”
+
+
+
+-------------------------------------------
+
+Seccion 15: React + PWA:
+Esta sección es una introducción técnica a las PWA con aplicaciones de React, recuerden que la PWA no es una tecnología que sólo se aplique a React, pero aquí veremos como integrarlo de varias maneras.
+
+Si pueden, creen un commit / branch en Git para que después puedan regresar rápidamente al proyecto tal cual lo tenemos ahora, ya que después haremos lo mismo y mucho más pero con Workbox.
+
+Esta sección es importante porque explicamos los fundamentos y formas te trabajar con la PWA usando la configuración por defecto que nos ofrece npx create-react-app
+
+
+
+Puntualmente veremos:
+
+Service Worker
+
+Caché
+
+Instalación
+
+Fetch
+
+Estrategias del caché
+
+Network first
+
+Cache Only
+
+Network first with cache fallback
 
 
 
 
+Notas: 
+- comando serve --build para contruir y desplegar al mismo tiempo
+- Hay que instalar y configurar varias cosas para empezar
+- Se crea como una clonacion del proyecto frontend pero con las configuraciones para trabajar con service worker
+- se copian dos archivos del proyecto clonado al proyecto original
+- copiar algunas dependencias del package json al proyecto original
+- generar un nuevo build con npm build
+- y etc mejor seguir paso a paso los videos, muchas configuraciones y cosas que tener en cuenta
 
 
 
 
+-------------------------------------------
+Seccion 16 workbox:
+
+Lo mismo que la seccion anterior pero optimizado y con mejores herramientas. Basicamente son puras configuraciones y alguna que otra modificacion al codigo de React
+
+
+Workbox es una herramienta que compro Google y ahora le da soporte, que permite configuraciones poderosas, rápidas y fáciles para el manejo de nuestras PWAs.
+
+Aquí aprenderemos:
+
+Detectar Online y Offline desde React
+
+Workbox
+
+Wizard
+
+Estrategias
+
+Background Sync
+
+IndexedDB
+
+Offline CRUD
+
+Optimizaciones de nuestro service worker
 
 
 
 
 -------------------------------------------
 
+Seccion 17
+Mapas - Marcadores - Rutas Polylines - Mapbox
+
+Esta es una sección bonus añadida después de haber terminado el curso, la cual tiene por objetivo aprender:
+
+Uso de Mapbox con TypeScript
+
+Rutas y direcciones
+
+Marcadores
+
+Comunicación entre contextos
+
+Distancia entre dos puntos
+
+Duración aproximada del viaje
+
+Es una sección bien interesante que les puede servir mucho, especialmente si quieren realizar cualquier trabajo con mapas en sus aplicaciones móviles o web.
 
 
+Nota:
+- En devtools clic en 3 puntos, more tools, sensor: eso es para jugar con la localizacion
+- 
+
+
+MAPBOX PIDE TARJETA DE CREDITO PARA CONTINUAR:
+ALTERNATIVAS:
+https://maplibre.org/maplibre-gl-js/docs/API/
+https://docs.maptiler.com/sdk-js/examples/how-to-use/
+
+En youtube el profe Fernando ha resubido la sección de mapas:
+https://www.youtube.com/watch?v=GvCUY8muozk&list=PLCKuOXG0bPi2dfwRr7m63bhj8T3OaRuw3
+
+
+-------------------------------------------
 
 
 
